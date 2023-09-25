@@ -1,4 +1,1 @@
-FROM mjjonone/mjj:amd64
-ENV PORT=3000
-EXPOSE 3000
-RUN chmod 777 /app
+FROM ghcr.io/mjjonone/use:latest
